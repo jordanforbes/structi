@@ -1,0 +1,26 @@
+{
+  "name": "structi",
+  "version": "1.0.0",
+  "description": "song structure creator",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "dependencies":{
+    "http-server": "^0.9.0",
+    "core-js": "^2.4.1",
+    "ejs": "^2.5.6",
+    "express": "^4.15.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jordanforbes/structi.git"
+  },
+  "author": "jordan forbes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jordanforbes/structi/issues"
+  },
+  "homepage": "https://github.com/jordanforbes/structi#readme"
+}
