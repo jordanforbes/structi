@@ -13,9 +13,14 @@ Chorus
 Outtro
 <script>
 
-function songParts(intro, verse, chorus, bridge, outtro){
+var key = 'C';
+var tempo = 120;
+
+
+function songParts(intro, verse, preChorus, chorus, bridge, outtro){
 	this.intro = intro;
 	this.verse = verse;
+	this.preChorus = preChorus;
 	this.chorus = chorus;
 	this.bridge = bridge;
 }
