@@ -27,5 +27,5 @@ var key = randomizer(keyList)
 var chord = randomizer(chordList[0]) + " " + randomizer(chordList[1])
 var tempo = randomizer(tempoNum)
 
-console.log(tempo + "bpm " + timeSignature + " " + key + " " + chord)
+console.log("Tempo: "+tempo + " bpm, " + "Time Signature: "+timeSignature + ", Key: " + key + ", Chord: " +key+" "+ chord)
 
